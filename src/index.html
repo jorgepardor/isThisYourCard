@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Yellowtail&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fraunces:wght@700&display=swap"
       rel="stylesheet"
     />
 
@@ -24,17 +24,23 @@
   <body>
     <div class="bg">
       <div class="container">
-        <div class="col-12 text-center py-5">
-          <h1>Is this your card?</h1>
+        <div class="col-12 py-5">
+          <h1 class="mt-5  text-center">Is this your card?</h1>
+
+          <div class="carta shadow mt-5">
+            <div class="suit display-4 text-left"></div>
+            <div class="number text-center"></div>
+            <div class="suit-2 display-4 text-right rotate-180"></div>
+          </div>
         </div>
 
-        <div class="carta col-3 shadow">
-          <div class="suit display-4 text-left"></div>
-          <div class="number text-center"></div>
-          <div class="suit-2 display-4 text-right rotate-180"></div>
-        </div>
-        <div class="btn btn-primary" id="tryAgain">
-          You should try again!
+        <div class="col-12 text-center">
+          <div
+            class="tryAgain btn btn-success btn-lg shadow"
+            onclick="buttonAction()"
+          >
+            No? You should try again!
+          </div>
         </div>
       </div>
     </div>

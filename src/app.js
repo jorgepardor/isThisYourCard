@@ -26,7 +26,7 @@ window.onload = function() {
   document.querySelector(".suit-2").innerHTML = cardSuit;
   document.querySelector(".number").innerHTML = cardNumber;
 
-  // document.querySelector("#tryAgain");
+  //   const btn = document.querySelector(".tryAgain");
 
-  // addEventListener("click", randomNumber());
+  //   btn.addEventListener("click", randomNumber());
 };
