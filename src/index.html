@@ -23,24 +23,19 @@
 
   <body>
     <div class="bg">
-      <div class="container">
-        <div class="col-12 py-5">
-          <h1 class="mt-5  text-center">Is this your card?</h1>
+      <div class="col-12 py-5">
+        <h1 class="mt-5  text-center">Is this your card?</h1>
 
-          <div class="carta shadow mt-5">
-            <div class="suit display-4 text-left"></div>
-            <div class="number text-center"></div>
-            <div class="suit-2 display-4 text-right rotate-180"></div>
-          </div>
+        <div class="theCard shadow mt-5">
+          <div class="display-4 text-left" id="suit"></div>
+          <div class="number text-center"></div>
+          <div class="display-4" id="suit-2"></div>
         </div>
+      </div>
 
-        <div class="col-12 text-center">
-          <div
-            class="tryAgain btn btn-success btn-lg shadow"
-            onclick="buttonAction()"
-          >
-            No? You should try again!
-          </div>
+      <div class="col-12 text-center">
+        <div class="tryAgain btn btn-success btn-lg shadow">
+          No? You should try again!
         </div>
       </div>
     </div>

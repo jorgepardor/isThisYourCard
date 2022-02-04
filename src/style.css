@@ -16,15 +16,14 @@ html {
   padding-top: 0;
 }
 
-.carta {
+.theCard {
   background-color: #f2efdf;
   border-radius: 10px;
   border-color: #353535;
   border-width: 5px;
   border-style: solid;
   height: 450px;
-  width: 300px;
-  padding: 20px;
+  width: 320px;
   margin: auto;
 }
 
@@ -33,34 +32,29 @@ h1 {
   font-family: "Abril Fatface", cursive;
   font-size: 8em;
 }
-
-.spade {
-  color: black;
-}
-
-.club {
-  color: black;
-}
-
-.heart {
-  color: red;
-}
-
-.diamond {
-  color: red;
-}
-
 .number {
   font-family: "Fraunces", serif;
   font-size: 12em;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
-.suit {
+#suit {
+  height: 100px;
+  padding-left: 20px;
+  font-size: 5em;
 }
 
-.suit-2 {
+#suit-2 {
   -webkit-transform: rotate(-180deg);
   -moz-transform: rotate(-180deg);
   -ms-transform: rotate(-180deg);
   -o-transform: rotate(-180deg);
+  height: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 5em;
 }
